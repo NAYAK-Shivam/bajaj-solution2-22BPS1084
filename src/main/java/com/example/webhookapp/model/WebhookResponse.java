@@ -1,30 +1,24 @@
 package com.example.webhookapp.model;
-
 public class WebhookResponse {
     private String status;
     private String message;
+    private Data data;
 
-    // Constructor
-    public WebhookResponse(String status, String message) {
-        this.status = status;
-        this.message = message;
+    public static class Data {
+        private String webhook;
+        private String accessToken;
+
+        public String getWebhook() { return webhook; }
+        public void setWebhook(String webhook) { this.webhook = webhook; }
+
+        public String getAccessToken() { return accessToken; }
+        public void setAccessToken(String accessToken) { this.accessToken = accessToken; }
     }
 
-    // Getters
-    public String getStatus() {
-        return status;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    // Setters
-    public void setStatus(String status) {
-        this.status = status;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
-    }
+    public Data getData() { return data; }
+    public void setData(Data data) { this.data = data; }
+    public String getStatus() { return status; }
+    public void setStatus(String status) { this.status = status; }
+    public String getMessage() { return message; }
+    public void setMessage(String message) { this.message = message; }
 }

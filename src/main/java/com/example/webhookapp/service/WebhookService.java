@@ -24,9 +24,9 @@ public class WebhookService {
 
     public WebhookResponse generateWebhook() {
         Map<String, String> requestBody = Map.of(
-                "name", "John Doe",
-                "regNo", "REG12347",
-                "email", "john@example.com"
+                "name", "Shivam Nayak",
+                "regNo", "22BPS1084",
+                "email", "shivam.nayak2022@vitstudent.ac.in"
         );
 
         return webClient.post()
