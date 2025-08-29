@@ -5,4 +5,3 @@ com/example/webhookapp/service/WebhookService.class
 com/example/webhookapp/model/GenerateWebhookRequest.class
 com/example/webhookapp/WebhookAppApplication.class
 com/example/webhookapp/repo/SolutionRepository.class
-com/example/webhookapp/model/WebhookResponse$Data.class
