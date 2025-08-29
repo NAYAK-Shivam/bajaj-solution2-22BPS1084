@@ -1,0 +1,7 @@
+com/example/webhookapp/entity/Solution.class
+com/example/webhookapp/config/WebClientConfig.class
+com/example/webhookapp/service/WebhookService.class
+com/example/webhookapp/model/GenerateWebhookRequest.class
+com/example/webhookapp/WebhookAppApplication.class
+com/example/webhookapp/repo/SolutionRepository.class
+com/example/webhookapp/model/GenerateWebhookResponse.class
